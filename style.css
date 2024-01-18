@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(28, 28, 26);
+  text-align: center;
+}
+.form input,
+.form textarea {
+  background-color: rgb(18, 17, 17);
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid rgb(85, 79, 79);
+  outline: none;
+  width: 300px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: gray;
+}
+.form textarea {
+  resize: none;
+}
+.form input:focus,
+.form textarea:focus {
+  color: aquamarine;
+  border-color: aquamarine;
+}
+.form input:focus::placeholder,
+.form textarea:focus::placeholder {
+  color: aquamarine;
+}
+.form2 button:focus,
+button {
+  color: rgb(89, 168, 140);
+}
+input,label
